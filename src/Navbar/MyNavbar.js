@@ -27,6 +27,9 @@ const MyNavbar = () => {
                         <LinkContainer to="/contact">
                             <Nav.Link className="mx-3 p-3">Contact</Nav.Link>
                         </LinkContainer>
+                          <LinkContainer to="/resume">
+                            <Nav.Link className="mx-3 p-3">Resume</Nav.Link>
+                        </LinkContainer>
                    
                     </Nav>
                     

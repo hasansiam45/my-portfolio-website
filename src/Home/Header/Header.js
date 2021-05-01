@@ -1,26 +1,27 @@
 import React from 'react'
 import Typical from 'react-typical';
-import myImg from '../../img/profile4.png';
-
+import myImg from '../../img/2.png';
+import ParticlesBg from 'particles-bg'
 const Header = () => {
     return (
         
-        <div className="header-content bg-dark">
-            
+        <div>
+            <ParticlesBg color="#000" num={400} type="random" bg={true} />
+        <div className="header-content">
         <div className="container">
 
             <div className="row">
-                <div className="col-md-6 d-flex py-2">
+                <div className="col-md-8 d-flex py-2 animate__animated animate__lightSpeedInLeft">
                     <div className="justify-content-center align-self-center">
-                             <h1 className="text-white">
+                             <h1 className="text-white p-3 rounded"> Hello, <br/> I am {' '}
                             <Typical
-                                steps={['Hello, I am Jahid Hasan Siam', 1000]}
+                                steps={['Jahid Hasan Siam', 1000]}
                                 loop={Infinity}
                                 wrapper="b"
                             />
                         </h1> <br/>
             
-                    <h5 className="text-success">
+                    <h5 className="text-white bg-success p-3 rounded">
                         I'm a {' '}
                         <Typical
                             steps={['Web Developer', 1000, 'React-Developer',1000, 'Front-End-Developer',1000]}
@@ -31,8 +32,8 @@ const Header = () => {
                     </div>
                 </div>
                 
-                <div className="col-md-6 py-2">
-                   <img className="img-fluid" src={myImg} alt=""/>
+                <div className="col-md-4 d-none d-md-block py-2">
+                   <img style={{height: '380px', width: '400px',borderBottomLeftRadius: '-15%',borderTopRightRadius: '-15%', borderTopLeftRadius: '35%', borderBottomRightRadius: '35%'}} className="img-fluid py-3 animate__animated animate__lightSpeedInRight" src={myImg} alt=""/>
                 </div>
             
                 </div>
@@ -40,7 +41,7 @@ const Header = () => {
                 
             
             </div>
-  
+           </div>
             </div>
     )
 }

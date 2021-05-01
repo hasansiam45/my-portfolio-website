@@ -10,14 +10,18 @@ box-sizing: border-box;
 }
 
 .footer{
-  padding: 20px;
+  padding: 10px;
 }
 .footer ul li{
   list-style-type: none;
 }
 
 .footer ul li a {
-  padding: 15px;
+  padding: 0 15px;
   color: white;
   font-size: 28px;
+}
+.header-content{
+ background-color: #555;
+ opacity: 0.8; 
 }

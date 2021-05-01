@@ -7,6 +7,8 @@ import {
   Link
 } from "react-router-dom";
 import Home from './Home/Home';
+import Contact from './Contact/Contact';
+import Projects from './Projects/Projects';
 
 
 
@@ -20,6 +22,15 @@ function App() {
           
           <Route path="/home">
           <Home></Home>
+          </Route>
+
+          <Route path="/contact">
+          <Contact></Contact>
+          </Route>
+          
+          
+          <Route path="/projects">
+          <Projects></Projects>
           </Route>
           
            <Route exact path="/">
