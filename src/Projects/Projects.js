@@ -5,6 +5,7 @@ import img3 from '../../src/img/5.png';
 import img4 from '../../src/img/6.png';
 import img5 from '../../src/img/7.png';
 import img6 from '../../src/img/8.png';
+import Footer from '../Footer/Footer';
 import MyNavbar from '../Navbar/MyNavbar';
 
 const Projects = () => {
@@ -119,6 +120,7 @@ const Projects = () => {
             
             </div>
             </div>
+            <Footer></Footer>
             </div>
     )
 }

@@ -1,12 +1,12 @@
 import React from 'react'
 import Typical from 'react-typical';
 import myImg from '../../img/2.png';
-import ParticlesBg from 'particles-bg'
+import ParticlesBg from 'particles-bg';
 const Header = () => {
     return (
         
         <div>
-            <ParticlesBg color="#000" num={400} type="random" bg={true} />
+            <ParticlesBg color="#000" num={300} type="random" bg={true} />
         <div className="header-content">
         <div className="container">
 

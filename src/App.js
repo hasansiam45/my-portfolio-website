@@ -9,19 +9,24 @@ import {
 import Home from './Home/Home';
 import Contact from './Contact/Contact';
 import Projects from './Projects/Projects';
+import About from './About/About';
+import Blog from './Blog/Blog';
 
 
 
 function App() {
   return (
 
-    <div>
       <Router>
         
         <Switch>
           
           <Route path="/home">
           <Home></Home>
+          </Route>
+          
+          <Route path="/about">
+          <About></About>
           </Route>
 
           <Route path="/contact">
@@ -33,6 +38,10 @@ function App() {
           <Projects></Projects>
           </Route>
           
+          <Route path="/blog">
+          <Blog></Blog>
+          </Route>
+          
            <Route exact path="/">
           <Home></Home>
           </Route>
@@ -41,7 +50,7 @@ function App() {
         
       </Router>
     
-    </div>
+
     
   );
 }
