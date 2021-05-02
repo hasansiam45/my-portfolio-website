@@ -2,7 +2,7 @@ import React from 'react'
 import img1 from '../../src/img/3.png';
 import img2 from '../../src/img/4.png';
 import img3 from '../../src/img/5.png';
-import img4 from '../../src/img/6.png';
+import img4 from '../../src/img/10.png';
 import img5 from '../../src/img/7.png';
 import img6 from '../../src/img/8.png';
 import Footer from '../Footer/Footer';
@@ -75,10 +75,10 @@ const Projects = () => {
                     <div className="card animate__animated animate__bounceInUp animate__delay-2s">
                         <img className="card-img-top" src={img4} alt="Card image cap"/>
                             <div className="card-body">
-                                <h5 className="card-title">Stopwatch</h5>
-                                <p className="card-text">Its a working stopwatch which can be used. It's simple for using. Technology Used Html,Css, Javascript</p>
-                                <a target="_blank" href="https://hasansiam45.github.io/fancy-stopwatch/" className="btn btn-primary m-2">Live Link</a>
-                                <a target="_blank" href="https://github.com/hasansiam45/fancy-stopwatch" className="btn btn-primary m-2">Code</a>
+                                <h5 className="card-title">Club Info</h5>
+                                <p className="card-text">It's a react based project. Here user can find the team of English premiere league. User can see details of any team by explore button. Technology Used React, React-Router, Api, Bootstrap, React Font Awesome.</p>
+                                <a target="_blank" href="https://club-info-hasansiam.netlify.app/" className="btn btn-primary m-2">Live Link</a>
+                                <a target="_blank" href="https://github.com/Porgramming-Hero-web-course/simple-react-hasansiam45" className="btn btn-primary m-2">Code</a>
                             
                             </div>
                     </div>
