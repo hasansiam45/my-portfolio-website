@@ -22,7 +22,10 @@ box-sizing: border-box;
   font-size: 28px;
 }
 .header-content{
+ overflow: hidden;
  background-color: #555;
+ padding-top: 5%;
+ height: 81vh;
  opacity: 0.75; 
 }
 

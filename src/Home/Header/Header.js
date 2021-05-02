@@ -2,11 +2,12 @@ import React from 'react'
 import Typical from 'react-typical';
 import myImg from '../../img/2.png';
 import ParticlesBg from 'particles-bg';
+import Footer from '../../Footer/Footer';
 const Header = () => {
     return (
         
         <div>
-            <ParticlesBg color="#000" num={300} type="random" bg={true} />
+            <ParticlesBg color="#fff" num={300} type="random" bg={true} />
         <div className="header-content">
         <div className="container">
 
@@ -41,7 +42,8 @@ const Header = () => {
                 
             
             </div>
-           </div>
+            </div>
+            <Footer></Footer>
             </div>
     )
 }
