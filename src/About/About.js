@@ -3,7 +3,8 @@ import myImg from '../img/2.png';
 import ParticlesBg from 'particles-bg';
 import MyNavbar from '../Navbar/MyNavbar';
 import Footer from '../Footer/Footer';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 const About = () => {
     return (
      
@@ -88,6 +89,10 @@ const About = () => {
                     </div>
                     
                     
+            </div>
+            
+            <div className="d-flex justify-content-center p-3">
+             <a className="btn btn-success" target="_blank" href="https://drive.google.com/file/d/16lU6OjZoD96_bjQaJ4Ql4sYR3d1UTlqw/view"><FontAwesomeIcon icon={faDownload} /> Download Resume </a>
             </div>
             
             <Footer></Footer>

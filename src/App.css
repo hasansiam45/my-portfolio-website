@@ -23,9 +23,9 @@ box-sizing: border-box;
 }
 .header-content{
  overflow: hidden;
- background-color: #555;
+ background-color: transparent;
  padding-top: 5%;
- height: 81vh;
+ height: 80vh;
  opacity: 0.75; 
 }
 

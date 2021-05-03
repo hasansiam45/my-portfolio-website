@@ -14,7 +14,7 @@ const Header = () => {
             <div className="row">
                 <div className="col-md-8 d-flex py-2 animate__animated animate__lightSpeedInLeft">
                     <div className="justify-content-center align-self-center">
-                             <h1 className="text-white p-3 rounded"> Hello, <br/> I am {' '}
+                             <h1 className="text-white bg-dark p-3 rounded"> Hello, <br/> I am {' '}
                             <Typical
                                 steps={['Jahid Hasan Siam', 1000]}
                                 loop={Infinity}
@@ -29,8 +29,11 @@ const Header = () => {
                             loop={Infinity}
                             wrapper="b"
                         />
-                    </h5>
-                    </div>
+                                </h5>
+                          
+                            </div>
+                        
+                            
                 </div>
                 
                 <div className="col-md-4 d-none d-md-block py-2">
