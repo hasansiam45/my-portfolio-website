@@ -92,7 +92,7 @@ const About = () => {
             </div>
             
             <div className="d-flex justify-content-center p-3">
-             <a className="btn btn-success" target="_blank" href="https://drive.google.com/file/d/16lU6OjZoD96_bjQaJ4Ql4sYR3d1UTlqw/view"><FontAwesomeIcon icon={faDownload} /> Download Resume </a>
+             <a className="btn btn-success" href="https://drive.google.com/uc?export=download&id=16lU6OjZoD96_bjQaJ4Ql4sYR3d1UTlqw"><FontAwesomeIcon icon={faDownload} /> Download Resume </a>
             </div>
             
             <Footer></Footer>
