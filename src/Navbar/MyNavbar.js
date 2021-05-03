@@ -34,7 +34,7 @@ const MyNavbar = () => {
                             <Nav.Link className="mx-3 p-3">Blog</Nav.Link>
                         </LinkContainer>
                       
-                        <Nav.Link target="_blank" href="https://drive.google.com/file/d/16lU6OjZoD96_bjQaJ4Ql4sYR3d1UTlqw/view" className="mx-3 p-3"><FontAwesomeIcon icon={faDownload} /> Resume</Nav.Link>
+                        <Nav.Link target="_blank" href="https://drive.google.com/uc?export=download&id=16lU6OjZoD96_bjQaJ4Ql4sYR3d1UTlqw" className="mx-3 p-3"><FontAwesomeIcon icon={faDownload} /> Resume</Nav.Link>
                        
                    
                     </Nav>
