@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
+import Zoom from 'react-reveal/Zoom';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
@@ -29,9 +30,12 @@ import hungry1 from '../img/hungry/1.png';
 import hungry2 from '../img/hungry/2.png';
 import hungry3 from '../img/hungry/3.png';
 
-import rock1 from '../img/rock/1.png';
-import rock2 from '../img/rock/2.png';
-import rock3 from '../img/rock/3.png';
+import garden1 from '../img/garden/Screenshot_6.png';
+import garden2 from '../img/garden/Screenshot_7.png';
+import garden3 from '../img/garden/Screenshot_8.png';
+import garden4 from '../img/garden/Screenshot_9.png';
+import garden5 from '../img/garden/Screenshot_10.png';
+
 
 
 import MyNavbar from '../Navbar/MyNavbar';
@@ -51,8 +55,8 @@ const Projects = () => {
             <div className="row">
                 
                 <div className="col-md-6 my-5">
-                   <div className="card animate__animated animate__bounceInLeft">
-                         
+                   <div className="card">
+                         <Zoom left>
                                  <Carousel autoPlay="true" infiniteLoop="true" className="p-3 bg-success">
                                     <div>
                                         <img src={maid1} />
@@ -82,13 +86,14 @@ const Projects = () => {
                                 <a target="_blank" href="https://maidservice-9ba67.web.app/" className="btn btn-primary m-2">Live Link</a>
                                 <a target="_blank" href="https://github.com/hasansiam45/maid-service-client" className="btn btn-primary m-2">Code</a>
                             
-                            </div>
+                                </div>
+                        </Zoom>
                     </div>
                 </div>
                 
                 <div className="col-md-6 my-5">
-                    <div className="card animate__animated animate__bounceInRight">
-                            
+                    <div className="card">
+                            <Zoom left>
                                      <Carousel autoPlay="true" infiniteLoop="true" className="p-3 bg-success">
                                     <div>
                                         <img src={food1} />
@@ -112,7 +117,8 @@ const Projects = () => {
                                 <a target="_blank" href="https://foodvillage-f9119.web.app/" className="btn btn-primary m-2">Live Link</a>
                                 <a target="_blank" href="https://github.com/Porgramming-Hero-web-course/full-stack-client-hasansiam45" className="btn btn-primary m-2">Code</a>
                             
-                            </div>
+                                    </div>
+                             </Zoom>
                     </div>
                 </div>
             
@@ -123,8 +129,8 @@ const Projects = () => {
                    <div className="row">
                 
                 <div className="col-md-6 my-5">
-                   <div className="card animate__animated animate__bounceInDown animate__delay-2s">
-                           
+                   <div className="card">
+                           <Zoom left>
                                       <Carousel autoPlay="true" infiniteLoop="true" className="p-3 bg-success">
                                     <div>
                                         <img src={fancy1} />
@@ -143,13 +149,14 @@ const Projects = () => {
                                 <a target="_blank" href="https://hasansiam45.github.io/fancy-slider/" className="btn btn-primary m-2">Live Link</a>
                                 <a target="_blank" href="https://github.com/hasansiam45/fancy-slider" className="btn btn-primary m-2">Code</a>
                             
-                            </div>
+                                    </div>
+                            </Zoom>
                     </div>
                 </div>
                 
                 <div className="col-md-6 my-5">
-                    <div className="card animate__animated animate__bounceInUp animate__delay-2s">
-                              
+                    <div className="card">
+                              <Zoom left>
                                      <Carousel autoPlay="true" infiniteLoop="true" className="p-3 bg-success">
                                     <div>
                                         <img src={club1} />
@@ -173,7 +180,8 @@ const Projects = () => {
                                 <a target="_blank" href="https://club-info-hasansiam.netlify.app/" className="btn btn-primary m-2">Live Link</a>
                                 <a target="_blank" href="https://github.com/Porgramming-Hero-web-course/simple-react-hasansiam45" className="btn btn-primary m-2">Code</a>
                             
-                            </div>
+                                    </div>
+                            </Zoom>
                     </div>
                 </div>
             
@@ -184,8 +192,8 @@ const Projects = () => {
                    <div className="row">
                 
                 <div className="col-md-6 my-5">
-                   <div className="card animate__animated animate__rubberBand animate__delay-4s">
-                           
+                   <div className="card">
+                           <Zoom left>
                                          <Carousel autoPlay="true" infiniteLoop="true" className="p-3 bg-success">
                                     <div>
                                         <img src={hungry1} />
@@ -204,32 +212,41 @@ const Projects = () => {
                                 <a target="_blank" href="https://hasansiam45.github.io/hungry-monster/" className="btn btn-primary m-2">Live Link</a>
                                 <a target="_blank" href="https://github.com/hasansiam45/hungry-monster" className="btn btn-primary m-2">Code</a>
                             
-                            </div>
+                                    </div>
+                            </Zoom>
                     </div>
                 </div>
                 
                 <div className="col-md-6 my-5">
-                    <div className="card animate__animated animate__rubberBand animate__delay-4s">
-                           
+                    <div className="card">
+                           <Zoom left>
                                       <Carousel autoPlay="true" infiniteLoop="true" className="p-3 bg-success">
                                     <div>
-                                        <img src={rock1} />
+                                        <img src={garden1} />
                                     </div>
                                     <div>
-                                        <img src={rock2} />
+                                        <img src={garden2} />
                                     </div>
                                     <div>
-                                        <img src={rock3} />
+                                        <img src={garden3} />
                                     </div>
+                                    <div>
+                                        <img src={garden4} />
+                                    </div>
+                                    <div>
+                                        <img src={garden5} />
+                                    </div>
+
                           
                                 </Carousel>
                             <div className="card-body">
-                                <h5 className="card-title">Rock It</h5>
-                                <p className="card-text">Here User can search song by name, if that song is available in the api then it will be shown into UI and also can see it's lyrics which calls another Api. Technology used Html, Css, Javascript,Rest Api.</p>
-                                <a target="_blank" href="https://hasansiam45.github.io/hard-rock/" className="btn btn-primary m-2">Live Link</a>
-                                <a target="_blank" href="https://github.com/hasansiam45/hard-rock" className="btn btn-primary m-2">Code</a>
+                                <h5 className="card-title">Garden Go</h5>
+                                <p className="card-text">Here User can order Tree Plant by online. This is a team project. I developed the redux part of this project for state management and also built a contact form for user to contact with us. </p>
+                                <a target="_blank" href="https://garden-go.web.app/" className="btn btn-primary m-2">Live Link</a>
+                                <a target="_blank" href="https://github.com/sajjadsadiqofficial/Hero-Garden-Go" className="btn btn-primary m-2">Code</a>
                             
-                            </div>
+                                    </div>
+                             </Zoom>
                     </div>
                 </div>
             

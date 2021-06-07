@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../Footer/Footer'
 import MyNavbar from '../Navbar/MyNavbar'
+import Zoom from 'react-reveal/Zoom';
 import js1 from '../img/blog/js.jpeg'
 import js2 from '../img/blog/js.jpg'
 import reactImg from '../img/blog/react.png'
@@ -13,8 +14,9 @@ const Blog = () => {
             
             <h2 className="p-3 mb-5 text-center">My Blogs</h2>
             
-            <div className="row mb-5 p-3 text-dark">
-                <div className="col-md-6">
+            <div className="row p-3 text-dark">
+                <Zoom left>
+                <div className="col-md-6 mb-5">
                     <div className="card">
                     <img className="img-fluid" src={js1} alt="" />
                     <div className="card-body">
@@ -24,7 +26,10 @@ const Blog = () => {
                     </div>
                     </div>
                 </div>
-                <div className="col-md-6">
+                </Zoom>
+                
+                <Zoom left>
+                <div className="col-md-6 mb-5">
                      <div className="card">
                     <img className="img-fluid" src={js2} alt="" />
                     <div className="card-body">
@@ -35,11 +40,13 @@ const Blog = () => {
                     </div>
                     
                 </div>
+                </Zoom>
             
             </div>
 
-             <div className="row mb-5 p-3 text-dark">
-                <div className="col-md-6">
+            <div className="row p-3 text-dark">
+                <Zoom left>
+                <div className="col-md-6 mb-5">
                       <div className="card">
                     <img className="img-fluid" src={reactImg} alt="" />
                     <div className="card-body">
@@ -49,8 +56,11 @@ const Blog = () => {
                     </div>
                     </div>
                     
-                </div>
-                <div className="col-md-6">
+                    </div>
+                </Zoom>
+                    
+                <Zoom left>
+                <div className="col-md-6 mb-5">
                       <div className="card">
                     <img className="img-fluid" src={wash} alt="" />
                     <div className="card-body">
@@ -61,7 +71,7 @@ const Blog = () => {
                     </div>
                     
                 </div>
-            
+                </Zoom>
             </div>
             <Footer></Footer>
         </div>

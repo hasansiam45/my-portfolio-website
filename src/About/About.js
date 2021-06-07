@@ -15,10 +15,10 @@ const About = () => {
                     <h2 className="text-center p-4">About Me</h2>
                     
                         <div className="row mb-5">
-                            <div className="col-md-8 d-flex align-items-center pt-3 animate__animated animate__lightSpeedInLeft">
+                            <div className="col-sm-12 col-md-8 d-flex align-items-center pt-3 animate__animated animate__lightSpeedInLeft">
                                 <p>Hello, there! I am Jahid Hasan Siam. I am a full Stack Web Developer. I am expert in building User Interfaces Using Frontend Tools. Like React, Bootstrap, Material UI etc. I can also make static sites with Html and Css and also can make it dynamic with Raw js. I love to work with new technologies and i always explore to learn new things. I have also used Node.js, Express.js, Firebase, Mongodb and also familiar with React Native, Redux, Next.js</p>
                             </div>
-                            <div className="col-md-4 py-2 text-center">
+                            <div className="col-sm-12 col-md-4 py-2 text-center">
                             <img style={{height: '380px', width: '400px',borderBottomLeftRadius: '-15%',borderTopRightRadius: '-15%', borderTopLeftRadius: '35%', borderBottomRightRadius: '35%'}} className="py-3 animate__animated animate__lightSpeedInRight" src={myImg} alt=""/>
                             </div>
                     </div>
