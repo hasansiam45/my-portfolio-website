@@ -9,7 +9,7 @@ import wash from '../img/blog/washing-brain.jpg'
 
 const Blog = () => {
     return (
-        <div className="bg-dark text-white p-2">
+        <div className="bg-dark text-white p-2 overflow-hidden">
           <MyNavbar></MyNavbar>
             
             <h2 className="p-3 mb-5 text-center">My Blogs</h2>

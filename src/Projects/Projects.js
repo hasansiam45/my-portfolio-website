@@ -4,12 +4,19 @@ import Zoom from 'react-reveal/Zoom';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
-import maid1 from '../img/maid/1.png';
-import maid2 from '../img/maid/2.png';
-import maid3 from '../img/maid/3.png';
-import maid4 from '../img/maid/4.png';
-import maid5 from '../img/maid/5.png';
-import maid6 from '../img/maid/11.png';
+import resort1 from '../img/resort/Screenshot_16.png';
+import resort2 from '../img/resort/Screenshot_17.png';
+import resort3 from '../img/resort/Screenshot_18.png';
+import resort4 from '../img/resort/Screenshot_19.png';
+import resort5 from '../img/resort/Screenshot_20.png';
+import resort6 from '../img/resort/Screenshot_21.png';
+import resort7 from '../img/resort/Screenshot_22.png';
+import resort8 from '../img/resort/Screenshot_23.png';
+import resort9 from '../img/resort/Screenshot_24.png';
+import resort10 from '../img/resort/Screenshot_25.png';
+import resort11 from '../img/resort/Screenshot_26.png';
+
+
 
 import food1 from '../img/food/1.png';
 import food2 from '../img/food/2.png';
@@ -59,32 +66,47 @@ const Projects = () => {
                          <Zoom left>
                                  <Carousel autoPlay="true" infiniteLoop="true" className="p-3 bg-success">
                                     <div>
-                                        <img src={maid1} />
+                                        <img src={resort1} />
                                     </div>
-                                    <div>
-                                        <img src={maid2} />
-                                    </div>
-                                    <div>
-                                        <img src={maid3} />
-                                    </div>
-                                    <div>
-                                        <img src={maid4} />
-                                    </div>
-                                    <div>
-                                        <img src={maid5} />
-                                    </div>
-                                    <div>
-                                        <img src={maid6} />
+                                        <div>
+                                        <img src={resort2} />
+                                        </div>
+                                           <div>
+                                        <img src={resort3} />
+                                        </div>
+                                           <div>
+                                        <img src={resort4} />
+                                        </div>
+                                           <div>
+                                        <img src={resort5} />
+                                        </div>
+                                           <div>
+                                        <img src={resort6} />
+                                        </div>
+                                           <div>
+                                        <img src={resort7} />
+                                        </div>
+                                           <div>
+                                        <img src={resort8} />
+                                        </div>
+                                           <div>
+                                        <img src={resort9} />
+                                        </div>
+                                           <div>
+                                        <img src={resort10} />
+                                        </div>
+                                           <div>
+                                        <img src={resort11} />
                                     </div>
                                 </Carousel>
                             <div className="card-body">
-                                <h5 className="card-title">Maid Service</h5>
+                                <h5 className="card-title">Resort BD</h5>
                                 <p className="card-text">It’s a  Complete Full Stack Project.
                                     Used React, Mongodb, Firebase, Node.js, Heroku.
                                     Special Features Added Like Seperate Role for Admin and User.Admin Dashboard and User Dashboard
                                     .</p>
-                                <a target="_blank" href="https://maidservice-9ba67.web.app/" className="btn btn-primary m-2">Live Link</a>
-                                <a target="_blank" href="https://github.com/hasansiam45/maid-service-client" className="btn btn-primary m-2">Code</a>
+                                <a target="_blank" href="https://resort-bd.web.app/" className="btn btn-primary m-2">Live Link</a>
+                                <a target="_blank" href="https://github.com/hasansiam45/resort-bd" className="btn btn-primary m-2">Code</a>
                             
                                 </div>
                         </Zoom>

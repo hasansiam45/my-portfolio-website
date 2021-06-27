@@ -5,10 +5,11 @@ import MyNavbar from '../Navbar/MyNavbar';
 import Footer from '../Footer/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import me from '../img/me.jpg'
 const About = () => {
     return (
      
-            <div className="bg-dark text-white">
+            <div className="bg-dark text-white overflow-hidden">
            
                    <MyNavbar></MyNavbar>
                     <div className="container">
@@ -89,6 +90,19 @@ const About = () => {
                     </div>
                     
                     
+            </div>
+            
+            <div>
+            
+                <div className="row text-center">
+                    <div className="col-md-12">
+                        
+                    <h2 className="m-5">My Certificate</h2>
+                        
+                        <img className="img-fluid p-3" src={me} alt="" />
+                    </div>
+                </div>
+            
             </div>
             
             <div className="d-flex justify-content-center p-3">
