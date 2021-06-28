@@ -25,10 +25,10 @@ const Contact = () => {
             <h3 className="p-3">Contact With Me</h3>
             <form onSubmit={sendEmail}>
                 
-            <input className="p-2 rounded" type="text" name="name"  placeholder="Your Name" /> <br/> <br/>
-            <input className="p-2 rounded" type="email" name="email"  placeholder="Your Email" /> <br/> <br/> 
-            <input className="p-2 rounded" type="text" name="subject"  placeholder="subject" /> <br/> <br/> 
-            <textarea className="p-2 mb-4 rounded" name="message" id="message" cols="24" rows="4" placeholder="Your Message"></textarea> <br/> 
+            <input className="p-2 rounded w-50" type="text" name="name"  placeholder="Your Name" /> <br/> <br/>
+            <input className="p-2 rounded w-50" type="email" name="email"  placeholder="Your Email" /> <br/> <br/> 
+            <input className="p-2 rounded w-50" type="text" name="subject"  placeholder="subject" /> <br/> <br/> 
+            <textarea className="p-2 mb-4 rounded w-50" name="message" id="message" cols="24" rows="4" placeholder="Your Message"></textarea> <br/> 
             <input className="btn btn-primary" type="submit" value="SEND" />
             </form>
             <Footer></Footer>

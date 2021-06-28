@@ -6,7 +6,7 @@ import Footer from '../../Footer/Footer';
 const Header = () => {
     return (
         
-        <div>
+        <div className="h-100">
             <ParticlesBg color="#fff" num={300} type="random" bg={true} />
         <div className="header-content">
         <div className="container">
