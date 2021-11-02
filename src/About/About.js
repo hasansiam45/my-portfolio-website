@@ -37,7 +37,7 @@ const About = () => {
                             <ul className="list-group list-group-flush text-white">
                                 <li className="list-group-item bg-dark border">1. HTML, CSS, JAVASCRIPT</li>
                                 <li className="list-group-item bg-dark border">2. REACT </li>
-                                <li className="list-group-item bg-dark border">3. NEXT.JS</li>
+                                <li className="list-group-item bg-dark border">3. Redux</li>
                                 <li className="list-group-item bg-dark border">4. FIREBASE</li>
                                 <li className="list-group-item bg-dark border">5. MATERIAL UI</li>
                                 <li className="list-group-item bg-dark border">6. REACT BOOTSTRAP</li>
