@@ -92,18 +92,6 @@ const About = () => {
                     
             </div>
             
-            <div>
-            
-                <div className="row text-center">
-                    <div className="col-md-12">
-                        
-                    <h2 className="m-5">My Certificate</h2>
-                        
-                        <img className="img-fluid p-3" src={me} alt="" />
-                    </div>
-                </div>
-            
-            </div>
             
             <div className="d-flex justify-content-center p-3">
              <a className="btn btn-success" href="https://drive.google.com/uc?export=download&id=16lU6OjZoD96_bjQaJ4Ql4sYR3d1UTlqw"><FontAwesomeIcon icon={faDownload} /> Download Resume </a>
